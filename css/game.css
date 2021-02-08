@@ -1,0 +1,72 @@
+body {
+    background-color: lightsteelblue;
+}
+
+h1 {
+    color: mediumblue;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+.board {
+    margin: auto;
+    font-size: 10px;
+    font-weight: bold;
+    height: 65px;
+    width: 65px;
+}
+
+.buttons {
+    margin: auto;
+    width: 300px;
+    height: 70px;
+    padding: 10px;
+    background-color: rgba(43, 62, 167, 0.26);
+}
+
+.buttons h4 {
+    margin-top: 1px;
+    text-align: center;
+    font-size: large;
+}
+
+.buttons button {
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-left: 15px;
+}
+
+.board .button {
+    height: 65px;
+    width: 65px;
+    font-weight: bold;
+}
+
+.correct {
+    background-color: rgb(28, 187, 28);
+    width: 60px;
+    height: 60px;
+    border: 0;
+}
+
+button.new {
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 45%;
+    margin-right: 45%;
+    display: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.victory {
+    display: none;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Touch the Nums</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body onload="init()">
+    <h1>*Touch the Nums*</h1>
+
+    <div class="buttons">
+        <h4>Choose Your Level:</h4>
+        <button onclick="switchDifficulty(4)">Easy (16)</button>
+        <button onclick="switchDifficulty(5)">Hard (25)</button>
+        <button onclick="switchDifficulty(6)">Expert (36)</button>
+    </div>
+
+    <h3>Timer:
+        <div class="timer">
+            <span>00.000</span>
+        </div>
+    </h3>
+
+    <table border="1">
+        <tbody class="board">
+
+        </tbody>
+    </table>
+
+    <h3 class="victory">🏆 VICTORIOUS 🏆</h3>
+    <button class="new" onclick="newGame()">New Game</button>
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>
